@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poiret+One:400|Raleway:400,900');
+
+body {
+    /* background-image: url("/assets/media/background.png"); */
+    background: #56444C;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background: whitesmoke;
+    width: 800px;
+    height: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: "Poiret One", sans-serif;
+    text-transform: uppercase;
+    font-size: 60pt;
+    line-height: 50pt;
+}
+p {
+    font-family: "Raleway", sans-serif;
+    width: 500px;
+    
+}
+
+/* //////////////////////////// GOAL NUMBER */
+.goal, .score {
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #93A362;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 30pt;
+    margin: 20px 10px;
+    position: relative;
+    z-index: 10;
+}
+
+#goal-number {
+    background-color: #1D1F20;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-family: "Poiret One", sans-serif;
+    color: whitesmoke;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 30pt;
+    margin: 20px 10px;
+    z-index: 50;
+}
+
+
+/* //////////////////////////// CRYSTALS */
+
+
+img {
+    width: 50px;
+    margin: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+/* //////////////////////////// SCORE BUCKET */
+
+#bucket {
+    border-radius: 50px;
+	border-top: 100px solid #1D1F20;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+    width: 600px;
+    text-align: center;
+    z-index: 10;
+
+}
+
+#score {
+    position: relative;
+    top: -120px;
+    font-family: "Poiret One", sans-serif;
+    color: whitesmoke;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 30pt;
+    z-index: 11;
+}
+
+.score {
+    top: -137px;
+    color: #68A5AD;
+}
+
+/* //////////////////////////// SCORE BOARD */
+
+.score-board {
+    display: inline;
+}
+
+.score-board {
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #B06DA8;
+    letter-spacing: -1px;
+    font-size: 30pt;
+    margin: 20px 10px;
+}
+
+#wins-span, #losses-span {
+    padding: 40px 0px;
+    border-radius: 10px;
+    font-family: "Poiret One", sans-serif;
+    text-transform: uppercase;
+    color: #1D1F20;
+    letter-spacing: -1px;
+    font-size: 30pt;
+}
